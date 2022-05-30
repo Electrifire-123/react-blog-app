@@ -97,7 +97,7 @@
   background: url(https://c.ndtvimg.com/2022-05/7l227qf4_moose-wala_625x300_29_May_22.jpg) no-repeat ;
   background-size: 100%;
   width: 69%;
-  height: calc(auto - 200px);
+  /* height: calc(auto - 200px); */
   margin-right: 10px;
   text-align: center;
   display: flex;
