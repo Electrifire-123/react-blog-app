@@ -4,7 +4,6 @@ import { store } from "../components/Details";
 import SmallCard from "../components/SmallCard";
 const Fitness = () => {
   const [detail] = useContext(store);
-  console.log(detail);
   return (
     <div className="category_page fitness_container">
       <div className="column_main">

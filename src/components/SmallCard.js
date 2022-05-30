@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const SmallCard = (props) => {
   const { imgUrl, title, description, articleid, category, date} = props;
   return (
-    <Link className='link' state={{ title: title, img: imgUrl, description: description, id: articleid }} to={`article/${articleid}`}>
+    <Link className='link' state={{ title: title, img: imgUrl, description: description, id: articleid }} to={`/article/${articleid}`}>
       <div className='sub_card' >
         <div className="card_data" >
           <div className="card_images">
