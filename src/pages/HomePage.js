@@ -41,12 +41,16 @@ const HomePage = () => {
                 return article.category === "bollywood";
               })
               .map((n) => (
-                <CardHome
+                <CardHome 
+                  key={n.id}
                   articleid={n.id}
                   imgUrl={n.Image}
                   title={n.title}
                   description={n.description.slice(0, 200)}
                   author={n.author}
+                  category={n.category}
+                  date={n.date}
+
                 />
               ))}
           </div>
@@ -56,12 +60,16 @@ const HomePage = () => {
                 return article.category === "technolgy";
               })
               .map((n) => (
-                <CardHome
+                <CardHome 
+                  key={n.id}
                   articleid={n.id}
                   imgUrl={n.Image}
                   title={n.title}
                   description={n.description.slice(0, 200)}
                   author={n.author}
+                  date={n.date}
+                  category={n.category}
+
                 />
               ))}
           </div>
@@ -71,12 +79,15 @@ const HomePage = () => {
                 return article.category === "fitness";
               })
               .map((n) => (
-                <CardHome
+                <CardHome 
+                  key={n.id}
                   articleid={n.id}
                   imgUrl={n.Image}
                   title={n.title}
                   description={n.description.slice(0, 200)}
                   author={n.author}
+                  category={n.category}
+                  date={n.date}
                 />
               ))}
           </div>
@@ -87,7 +98,7 @@ const HomePage = () => {
           <h1 className="title head-title">Latest Article</h1>
           {detail
             .filter((article) => {
-              return article.category === "Bollywood";
+              return article.category === "Latest";
             })
             .map((n) => (
               <Card
@@ -104,7 +115,7 @@ const HomePage = () => {
           <h1 className="side_title title">Top Posts</h1>
           {detail
             .filter((article) => {
-              return article.category === "Bollywood";
+              return article.category === "Top";
             })
             .map((n) => (
               <SmallCard
@@ -128,10 +139,11 @@ const HomePage = () => {
           <div className="rows">
             {detail
               .filter((article) => {
-                return article.category === "bollywood";
+                return article.category === "Latest-bottom1";
               })
               .map((n) => (
-                <CardHome
+                <CardHome 
+                  key={n.id}
                   articleid={n.id}
                   imgUrl={n.Image}
                   title={n.title}
@@ -143,10 +155,11 @@ const HomePage = () => {
           <div className="rows">
             {detail
               .filter((article) => {
-                return article.category === "technolgy";
+                return article.category === "Latest-bottom2";
               })
               .map((n) => (
-                <CardHome
+                <CardHome 
+                  key={n.id}
                   articleid={n.id}
                   imgUrl={n.Image}
                   title={n.title}
@@ -158,10 +171,11 @@ const HomePage = () => {
           <div className="rows">
             {detail
               .filter((article) => {
-                return article.category === "fitness";
+                return article.category === "Latest-bottom3";
               })
               .map((n) => (
-                <CardHome
+                <CardHome 
+                  key={n.id}
                   articleid={n.id}
                   imgUrl={n.Image}
                   title={n.title}

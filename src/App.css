@@ -89,14 +89,17 @@
 .banner-image{
   display: flex;
   width: 100%;
-  height: 500px;
-  
+  height: 600px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
 }
 
 .main-image{
   background: url(https://c.ndtvimg.com/2022-05/7l227qf4_moose-wala_625x300_29_May_22.jpg) no-repeat ;
   background-size: 100%;
   width: 69%;
+  min-width: 400px;
   /* height: calc(auto - 200px); */
   margin-right: 10px;
   text-align: center;
@@ -114,11 +117,17 @@
 
 .sub-images{
   width: 32%;
+  min-width: 200px;
 }
 
 img{
   border-radius: 7px;
   width: 100%;
+}
+
+.latest_news{
+  margin: 10px auto;
+  width: 85%;
 }
 
 /* Category page css */
@@ -156,6 +165,7 @@ img{
   width: 40%;
   min-width: 200px;
   margin: 10px;
+
 }
 
 .card_details{
@@ -212,17 +222,34 @@ img{
   display: flex;
   align-items:flex-end;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #000;
 }
+
+.rows{
+  width: 33%;
+}
+
 .card__image{
-  margin: 20px;
+  margin: 10px;
+  min-width: 200px;
+
 }
 .card__Home{
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  width: 90%;
+  width: 100%;
   margin: 5px;
-  padding: 20px;
+  padding: 20px 10px;
 }
 
+.home__bigcard__data{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* @media only screen and (min-width: 360px) and (max-width: 600px)  {
+  .
+} */

@@ -14,7 +14,7 @@ const Details = (props) => {
     },
     {
       "id": 101,
-      "date": "January 23, 2022",
+      "date": "May 29, 2022",
       "title": "Singer Sidhu Moose Wala Shot Dead. Canada-Based Gangster Did It, Say Cops",
       "Image": "https://c.ndtvimg.com/2022-05/7l227qf4_moose-wala_625x300_29_May_22.jpg",
       "category": "bollywood",
@@ -199,7 +199,7 @@ const Details = (props) => {
   },
   {
     "id": 104,
-    "date": "January 23, 2022",
+    "date": "May 30, 2022",
     "title": "Why I fell in love with Microsoft’s Surface Laptop Studio despite its shortcomings ",
     "Image": "https://images.indianexpress.com/2022/05/K1.jpg",
     "category": "technolgy",
@@ -251,6 +251,14 @@ const Details = (props) => {
     "title": "5 iPhone deals you can grab right now under Rs 60,000 ",
     "Image": "https://images.indianexpress.com/2022/05/iPhone-12-Express-Photo-1.jpg",
     "category": "Technology",
+    "description": "Whether its for the seamless ecosystem or for taking a break from Android, if you’re looking to buy a new iPhone without spending too much, you still have a number of options to consider. From the compact iPhone SE Gen-3 to the iPhone 12, here are five iPhone deals you can grab right now for under Rs 60,000. Note that all the prices mentioned below and without any hidden bank offers, discounts or exchange bonuses. You can, however, use any available offers to further bring down the price of the models listed below.The third-generation iPhone SE 2022 64GB is available on Amazon for Rs 41,900. The new iPhone SE 2022 Gen-3, the latest in the series, comes with the A15 Bionic 5G chip and the rest of the phone is largely the same as the iPhone SE 2020.You get the same old design including the large top and bottom bezels, single rear camera and single front camera with TouchID for security. If you want the A15 Bionic chip without spending much, you can consider the iPhone SE 3. You can also consider the 128GB variant for Rs 46,900."
+  },
+  {
+    "id": 202,
+    "date": "May 27, 2022",
+    "title": "5 iPhone deals you can grab right now under Rs 60,000 ",
+    "Image": "https://images.indianexpress.com/2022/05/iPhone-12-Express-Photo-1.jpg",
+    "category": "Latest",
     "description": "Whether its for the seamless ecosystem or for taking a break from Android, if you’re looking to buy a new iPhone without spending too much, you still have a number of options to consider. From the compact iPhone SE Gen-3 to the iPhone 12, here are five iPhone deals you can grab right now for under Rs 60,000. Note that all the prices mentioned below and without any hidden bank offers, discounts or exchange bonuses. You can, however, use any available offers to further bring down the price of the models listed below.The third-generation iPhone SE 2022 64GB is available on Amazon for Rs 41,900. The new iPhone SE 2022 Gen-3, the latest in the series, comes with the A15 Bionic 5G chip and the rest of the phone is largely the same as the iPhone SE 2020.You get the same old design including the large top and bottom bezels, single rear camera and single front camera with TouchID for security. If you want the A15 Bionic chip without spending much, you can consider the iPhone SE 3. You can also consider the 128GB variant for Rs 46,900."
   },
   {
@@ -319,7 +327,7 @@ const Details = (props) => {
   },
   {
     "id": 105,
-    "date": "January 23, 2022",
+    "date": "May 29, 2022",
     "title": "Watch: Virat Kohli impresses with his powerful ‘cleans day’ workout ",
     "Image": "https://images.indianexpress.com/2022/05/virat-kohli_1200_insta.jpg",
     "category": "fitness",
@@ -331,6 +339,14 @@ const Details = (props) => {
     "title": "Should yoga be done on an empty stomach? Here’s what experts say ",
     "Image": "https://images.indianexpress.com/2022/04/GettyImages-yoga-1200.jpg",
     "category": "Fitness",
+    "description": "o one will understand you or your body the way you do so make sure you listen to it, protect it, do good things for it and celebrate it,” they saidYoga is now the preferred choice of many, to stay fit, active and agile. It helps in numerous ways, be it in improving flexibility, strength and posture, or reducing stress and providing a sense of calm. Nutrition and diet are an important part of fitness along with physical exercise. On that account, it becomes necessary to understand whether yoga should be done on an empty stomach or notAnshuka Parwani, a yoga expert, and Pooja Makhija, a nutritionist took to Instagram to talk about this dilemma that many face.Pooja believes that it’s important to have something before starting with your exercise in the morning. It should be quite light and not too heavy to kickstart your metabolism.While both have contrasting opinions, they strongly agreed and upheld the point that you know your body better than anyone else. Hence, it’s important to observe and understand what your body is trying to tell you and do as one may deem fit. They said, if practising yoga on an empty stomach is suiting you better, do that. On the other hand, if it feels like you need something to get a better start, follow that as a part of your routine.    "
+  },
+  {
+    "id": 200,
+    "date": "May 28, 2022",
+    "title": "Should yoga be done on an empty stomach? Here’s what experts say ",
+    "Image": "https://images.indianexpress.com/2022/04/GettyImages-yoga-1200.jpg",
+    "category": "Latest",
     "description": "o one will understand you or your body the way you do so make sure you listen to it, protect it, do good things for it and celebrate it,” they saidYoga is now the preferred choice of many, to stay fit, active and agile. It helps in numerous ways, be it in improving flexibility, strength and posture, or reducing stress and providing a sense of calm. Nutrition and diet are an important part of fitness along with physical exercise. On that account, it becomes necessary to understand whether yoga should be done on an empty stomach or notAnshuka Parwani, a yoga expert, and Pooja Makhija, a nutritionist took to Instagram to talk about this dilemma that many face.Pooja believes that it’s important to have something before starting with your exercise in the morning. It should be quite light and not too heavy to kickstart your metabolism.While both have contrasting opinions, they strongly agreed and upheld the point that you know your body better than anyone else. Hence, it’s important to observe and understand what your body is trying to tell you and do as one may deem fit. They said, if practising yoga on an empty stomach is suiting you better, do that. On the other hand, if it feels like you need something to get a better start, follow that as a part of your routine.    "
   },
   {
@@ -453,6 +469,63 @@ const Details = (props) => {
     "category": "Food",
     "description": "If you are a fitness enthusiast and a vegan, you might be one of the people who have tofu in their meals instead of paneer. While many people find it easily in the supermarket, others may find it difficult to spot tofu at their local stores. If you are one of those people, don’t worry as this simple method can help you make protein-rich tofu at home with just two ingredients – chickpeas and water.Once the tofu is set, you can use it as and when required. It is as tasty as the tofu bought from a store and tofu is as versatile as cottage cheese. It can be used in dry and wet recipes depending on your mood and diet requirements. Chickpea is rich in protein and hence the tofu is a great source of protein to help you complete the daily protein requirement.Soak the chickpeas overnight after thoroughly washing with the help of a strainer under running water.Drain all the water and wash the chickpeas the next day. Add chickpeas with two cups of water in a blender and blend in batches until you have a smooth mixture.Strain the blended chickpeas through a muslin cloth into a bowl. Make a squeezable bag out of the muslin cloth with the mixture in it. Squeeze the blend well to strain it nicely. As the water drains slowly from the mixture, it takes some time to strain the blend.Take the strained blend and put it in a pot. Keep the pot on full flame and let the mixture boil. Once you see bubbles, lower the flame and cook the blend for another half n hour. The mixture will thicken with time. When it is thick enough, put off the flame and let the blend cool down for a while. Leave the mixture in a container for more than 2 hours idle. This will ensure that the mixture sits and the tofu sets properly"
   },
+  {
+    "id": 201,
+    "date": "May 29, 2022",
+    "title": "Unable to Find Tofu at Local Store? Here’s an Easy Recipe to Make it at Home",
+    "Image": "https://images.news18.com/ibnlive/uploads/2022/04/tofu-16510624083x2.jpg?impolicy=website&width=510&height=356",
+    "category": "Latest",
+    "description": "If you are a fitness enthusiast and a vegan, you might be one of the people who have tofu in their meals instead of paneer. While many people find it easily in the supermarket, others may find it difficult to spot tofu at their local stores. If you are one of those people, don’t worry as this simple method can help you make protein-rich tofu at home with just two ingredients – chickpeas and water.Once the tofu is set, you can use it as and when required. It is as tasty as the tofu bought from a store and tofu is as versatile as cottage cheese. It can be used in dry and wet recipes depending on your mood and diet requirements. Chickpea is rich in protein and hence the tofu is a great source of protein to help you complete the daily protein requirement.Soak the chickpeas overnight after thoroughly washing with the help of a strainer under running water.Drain all the water and wash the chickpeas the next day. Add chickpeas with two cups of water in a blender and blend in batches until you have a smooth mixture.Strain the blended chickpeas through a muslin cloth into a bowl. Make a squeezable bag out of the muslin cloth with the mixture in it. Squeeze the blend well to strain it nicely. As the water drains slowly from the mixture, it takes some time to strain the blend.Take the strained blend and put it in a pot. Keep the pot on full flame and let the mixture boil. Once you see bubbles, lower the flame and cook the blend for another half n hour. The mixture will thicken with time. When it is thick enough, put off the flame and let the blend cool down for a while. Leave the mixture in a container for more than 2 hours idle. This will ensure that the mixture sits and the tofu sets properly"
+  },
+  {
+    "id": 301,
+    "date": "May 29, 2022",
+    "title": "Radhika Apte is tired of industry people talking about body positivity then going through surgeries: 'I know so many of my colleagues'",
+    "Image": "https://st1.bollywoodlife.com/wp-content/uploads/2022/05/radhikaofficial_279032793_3143265359229361_3628480607009719689_n.jpg?impolicy=Medium_Widthonly&w=800",
+    "category": "Top",
+    "description": "Radhika Apte, who is known for doing intense and unconventional roles throughout her acting career, has expressed her displeasure with industry people and their double standards when it comes to glamour. She said that she is unable to cope with the fact that her colleagues who undergo surgeries to change their faces and bodies and then talk about body positivity and embracing their age. Also Read - Jitendra Kumar in Panchayat 2, Manoj Bajpayee in The Family Man 2 and more – check out the 10 highest paid actors on OTT and their hefty fees"
+  },
+  {
+    "id": 302,
+    "date": "May 30, 2022",
+    "title": "NI technology sector 'thriving' despite pandemic",
+    "Image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/50A2/production/_124924602_catalysthub.jpg",
+    "category": "Top",
+    "description": "Technology leaders in Northern Ireland believe there is a huge opportunityfor the development of the industry as it emerges from the pandemic. New share investment in companies based in Northern Ireland was more than £100m in 2021, according to Catalyst. This compares with about £5m of venture capital investment in 2014, and just over £44m in 2020 Catalyst says that despite the challenges of the past two years, the tech industry is thriving  There is a number of ways innovation can change, and disruption and global events can actually drive innovation, Adrian Johnston, Catalyst director of strategic business development said What you have seen is that the digital and technology sector has responded with agility to that need."
+  },
+  {
+    "id": 303,
+    "date": "May 30, 2022",
+    "title": "Amazon, Google and other tech companies gave massive hike to their employees",
+    "Image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202205/Screenshot_2022-05-29_at_9.07._1200x768.png?ezylgjmz8v9G02_1y9e6AZ4ub3vVc0b3&size=770:433",
+    "category": "Top",
+    "description": "The appraisal season is here and if you are working for one of the big tech companies such as Amazon, Google or Microsoft, chances are that you will or have already seen a huge jump in your salary. Companies including Amazon, Google, Microsoft, Infosys and others have reportedly hiked the salaries of all their employees.In the past two years, salary increments in various companies were deferred on the account of the pandemic and the economic downturn. However, business picked up during the second year of the pandemic, as people got accustomed to the new normal. Now to retain its top talents and attract talented candidates, companies are rewarding the employees. Earlier in 2021, top MNCs like Accenture, Infosys, TCS, Wipro and others hiked the pay of their employees and even promoted them. This year, companies like Amazon, Google, and Microsoft have followed suit."
+  },
+  {
+    "id": 401,
+    "date": "May 29, 2022",
+    "title": "Radhika Apte is tired of industry people talking about body positivity then going through surgeries: 'I know so many of my colleagues'",
+    "Image": "https://st1.bollywoodlife.com/wp-content/uploads/2022/05/radhikaofficial_279032793_3143265359229361_3628480607009719689_n.jpg?impolicy=Medium_Widthonly&w=800",
+    "category": "Latest-bottom2",
+    "description": "Radhika Apte, who is known for doing intense and unconventional roles throughout her acting career, has expressed her displeasure with industry people and their double standards when it comes to glamour. She said that she is unable to cope with the fact that her colleagues who undergo surgeries to change their faces and bodies and then talk about body positivity and embracing their age. Also Read - Jitendra Kumar in Panchayat 2, Manoj Bajpayee in The Family Man 2 and more – check out the 10 highest paid actors on OTT and their hefty fees"
+  },
+  {
+    "id": 402,
+    "date": "May 30, 2022",
+    "title": "NI technology sector 'thriving' despite pandemic",
+    "Image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/50A2/production/_124924602_catalysthub.jpg",
+    "category": "Latest-bottom1",
+    "description": "Technology leaders in Northern Ireland believe there is a huge opportunityfor the development of the industry as it emerges from the pandemic. New share investment in companies based in Northern Ireland was more than £100m in 2021, according to Catalyst. This compares with about £5m of venture capital investment in 2014, and just over £44m in 2020 Catalyst says that despite the challenges of the past two years, the tech industry is thriving  There is a number of ways innovation can change, and disruption and global events can actually drive innovation, Adrian Johnston, Catalyst director of strategic business development said What you have seen is that the digital and technology sector has responded with agility to that need."
+  },
+  {
+    "id": 403,
+    "date": "May 30, 2022",
+    "title": "Amazon, Google and other tech companies gave massive hike to their employees",
+    "Image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202205/Screenshot_2022-05-29_at_9.07._1200x768.png?ezylgjmz8v9G02_1y9e6AZ4ub3vVc0b3&size=770:433",
+    "category": "Latest-bottom3",
+    "description": "The appraisal season is here and if you are working for one of the big tech companies such as Amazon, Google or Microsoft, chances are that you will or have already seen a huge jump in your salary. Companies including Amazon, Google, Microsoft, Infosys and others have reportedly hiked the salaries of all their employees.In the past two years, salary increments in various companies were deferred on the account of the pandemic and the economic downturn. However, business picked up during the second year of the pandemic, as people got accustomed to the new normal. Now to retain its top talents and attract talented candidates, companies are rewarding the employees. Earlier in 2021, top MNCs like Accenture, Infosys, TCS, Wipro and others hiked the pay of their employees and even promoted them. This year, companies like Amazon, Google, and Microsoft have followed suit."
+  },
+
   
   ]);
   return (
