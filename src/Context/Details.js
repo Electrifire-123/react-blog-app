@@ -1,23 +1,11 @@
-import React, { createContext, useState } from 'react'
 
-export const store = createContext()
-
-const Details = (props) => {
-  const [details, setDetails] = useState([
+export const articleDetails = [
     {
       "id": 1,
       "date": "January 23, 2022",
       "title": "Singer Sidhu Moose Wala Shot Dead. Canada-Based Gangster Did It, Say Cops",
       "Image": "https://c.ndtvimg.com/2022-05/7l227qf4_moose-wala_625x300_29_May_22.jpg",
       "category": "Bollywood",
-      "description": "New Delhi: Congress leader and Punjabi singer Sidhu Moose Wala was shot dead on Sunday, a day after his security was withdrawn by the state police. However, it is to be pondered upon, what made the Punjabi singing fame surrounded by controversies Born on 17 June 1993, Moosewala, whose real name is Shubhdeep Singh Sidhu, belongs to the Moosewala village which is situated in Punjab's Mansa district. Moose Wala enjoyed stardom only a few could imagine at a young age in the twenties of his life. He learned music during his college days and after completing his education, he moved to Canada.However, being widely known for his 'gangster rap', hit the headlines for all the wrong reasons.He was widely popular among the youth having 6.9 million followers on Instagram. However, his stardom was often overtaken by the controversies surrounding him for promoting drugs and violence through his songs.For instance, one of his songs titled 'Jatti Jeone Morh Wargi' came under the scanner as it made a reference to the 18th-century Sikh warrior Mai Bhago.Many FIRs were also registered against Moose Wala for promoting violence and hurting the religious sentiments of the Sikh community. However, he had issued an apology later on after people slammed him for portraying the Sikh warrior in a poor light.Moose Wala was booked after the pictures of him with an AK-47 went viral on social media during the COVID pandemic.Later, he was also booked by the Punjab police under the Arms Act after being charged with the promotion of gun culture in 2020. The action was taken for one of his songs Panj Goliyan"
-    },
-    {
-      "id": 101,
-      "date": "May 29, 2022",
-      "title": "Singer Sidhu Moose Wala Shot Dead. Canada-Based Gangster Did It, Say Cops",
-      "Image": "https://c.ndtvimg.com/2022-05/7l227qf4_moose-wala_625x300_29_May_22.jpg",
-      "category": "bollywood",
       "description": "New Delhi: Congress leader and Punjabi singer Sidhu Moose Wala was shot dead on Sunday, a day after his security was withdrawn by the state police. However, it is to be pondered upon, what made the Punjabi singing fame surrounded by controversies Born on 17 June 1993, Moosewala, whose real name is Shubhdeep Singh Sidhu, belongs to the Moosewala village which is situated in Punjab's Mansa district. Moose Wala enjoyed stardom only a few could imagine at a young age in the twenties of his life. He learned music during his college days and after completing his education, he moved to Canada.However, being widely known for his 'gangster rap', hit the headlines for all the wrong reasons.He was widely popular among the youth having 6.9 million followers on Instagram. However, his stardom was often overtaken by the controversies surrounding him for promoting drugs and violence through his songs.For instance, one of his songs titled 'Jatti Jeone Morh Wargi' came under the scanner as it made a reference to the 18th-century Sikh warrior Mai Bhago.Many FIRs were also registered against Moose Wala for promoting violence and hurting the religious sentiments of the Sikh community. However, he had issued an apology later on after people slammed him for portraying the Sikh warrior in a poor light.Moose Wala was booked after the pictures of him with an AK-47 went viral on social media during the COVID pandemic.Later, he was also booked by the Punjab police under the Arms Act after being charged with the promotion of gun culture in 2020. The action was taken for one of his songs Panj Goliyan"
     },
     {
@@ -197,14 +185,7 @@ const Details = (props) => {
     "category": "Technology",
     "description": "As I was waiting for someone at a Delhi hotel recently, I saw a gentleman coming my way. He sat next to me and curiously asked about the laptop I was using. “It’s a Surface Laptop Studio,” I replied. “Does Microsoft make its own laptops?” He admitted he wasn’t aware of the Surface brand but told me he liked the form factor of the Surface Laptop Studio. “It’s different from my MacBook Pro,” said the man who introduced himself as the owner of an architectural firm. This conversation just reinforced my belief that there will be takers for Microsoft’s experimental Surface Laptop Studio, which blends certain elements of the desktop Surface Studio and the premium 2-in-1 Surface Book. It’s a mobile workstation that’s also a sketching slate and a portable home theater. I have been using the Surface Laptop Studio for a few days, and I am in love with this device even though it is not perfect. Here is my review."
   },
-  {
-    "id": 104,
-    "date": "May 30, 2022",
-    "title": "Why I fell in love with Microsoft’s Surface Laptop Studio despite its shortcomings ",
-    "Image": "https://images.indianexpress.com/2022/05/K1.jpg",
-    "category": "technolgy",
-    "description": "As I was waiting for someone at a Delhi hotel recently, I saw a gentleman coming my way. He sat next to me and curiously asked about the laptop I was using. “It’s a Surface Laptop Studio,” I replied. “Does Microsoft make its own laptops?” He admitted he wasn’t aware of the Surface brand but told me he liked the form factor of the Surface Laptop Studio. “It’s different from my MacBook Pro,” said the man who introduced himself as the owner of an architectural firm. This conversation just reinforced my belief that there will be takers for Microsoft’s experimental Surface Laptop Studio, which blends certain elements of the desktop Surface Studio and the premium 2-in-1 Surface Book. It’s a mobile workstation that’s also a sketching slate and a portable home theater. I have been using the Surface Laptop Studio for a few days, and I am in love with this device even though it is not perfect. Here is my review."
-  },
+
   {
     "id": 22,
     "date": "January 23, 2022",
@@ -213,14 +194,7 @@ const Details = (props) => {
     "category": "Technology",
     "description": "For $29.99 a month, a website called PimEyes offers a potentially dangerous superpower from the world of science fiction: the ability to search for a face, finding obscure photos that would otherwise have been as safe as the proverbial needle in the vast digital haystack of the internet.A search takes mere seconds. You upload a photo of a face, check a box agreeing to the terms of service and then get a grid of photos of faces deemed similar, with links to where they appear on the internet. The New York Times used PimEyes on the faces of a dozen Times journalists, with their consent, to test its powers.PimEyes found photos of every person, some that the journalists had never seen before, even when they were wearing sunglasses or a mask, or their face was turned away from the camera, in the image used to conduct the search. PimEyes found one reporter dancing at an art museum event a decade ago, and crying after being proposed to, a photo that she didn’t particularly like but that the photographer had decided to use to advertise his business on Yelp. A tech reporter’s younger self was spotted in an awkward crush of fans at the Coachella music festival in 2011. A foreign correspondent appeared in countless wedding photos, evidently the life of every party, and in the blurry background of a photo taken of someone else at a Greek airport in 2019. A journalist’s past life in a rock band was unearthed, as was another’s preferred summer camp getaway."
   },
-  {
-    "id": 500,
-    "date": "January 23, 2022",
-    "title": "These are the best celestial events to look forward to in 2022 ",
-    "Image": "https://images.indianexpress.com/2022/05/Celestial-calendar-2022-solar-lunar-eclipse-meteor-showers.jpg",
-    "category": "Technology",
-    "description": "The cosmos is as beautiful as it is mysterious. Every once in a while, the universe puts on a show for us humans here on Earth to enjoy. Sometimes, it is an eclipse, sometimes it is a meteor shower. But no matter what event, it is an occasion that you should not miss. Here, we have put together a list of celestial events that we can look forward to seeing in 2022.After the partial eclipse visible in certain parts of South America on April 30 this year, there is only one more solar eclipse left for us to witness: a partial one that will happen on October 25 and will be visible in Europe, Northeast Africa, the Middle East and parts of Asia, including India. The greatest part of the eclipse will be visible to viewers in India so save the date on your calendar.The total lunar eclipse that occurred on May 16 this year will not be the only one this year: another total lunar eclipse is predicted to happen once again on November 8 this year. However, just like the previous full lunar eclipse, it is unlikely that this one would be visible from India. But just like the one in May, the lunar eclipse in November will also presumably be live-streamed by multiple sources, allowing you to catch a glimpse."
-  },
+  
   {
     "id": 23,
     "date": "January 23, 2022",
@@ -253,14 +227,7 @@ const Details = (props) => {
     "category": "Technology",
     "description": "Whether its for the seamless ecosystem or for taking a break from Android, if you’re looking to buy a new iPhone without spending too much, you still have a number of options to consider. From the compact iPhone SE Gen-3 to the iPhone 12, here are five iPhone deals you can grab right now for under Rs 60,000. Note that all the prices mentioned below and without any hidden bank offers, discounts or exchange bonuses. You can, however, use any available offers to further bring down the price of the models listed below.The third-generation iPhone SE 2022 64GB is available on Amazon for Rs 41,900. The new iPhone SE 2022 Gen-3, the latest in the series, comes with the A15 Bionic 5G chip and the rest of the phone is largely the same as the iPhone SE 2020.You get the same old design including the large top and bottom bezels, single rear camera and single front camera with TouchID for security. If you want the A15 Bionic chip without spending much, you can consider the iPhone SE 3. You can also consider the 128GB variant for Rs 46,900."
   },
-  {
-    "id": 202,
-    "date": "May 27, 2022",
-    "title": "5 iPhone deals you can grab right now under Rs 60,000 ",
-    "Image": "https://images.indianexpress.com/2022/05/iPhone-12-Express-Photo-1.jpg",
-    "category": "Latest",
-    "description": "Whether its for the seamless ecosystem or for taking a break from Android, if you’re looking to buy a new iPhone without spending too much, you still have a number of options to consider. From the compact iPhone SE Gen-3 to the iPhone 12, here are five iPhone deals you can grab right now for under Rs 60,000. Note that all the prices mentioned below and without any hidden bank offers, discounts or exchange bonuses. You can, however, use any available offers to further bring down the price of the models listed below.The third-generation iPhone SE 2022 64GB is available on Amazon for Rs 41,900. The new iPhone SE 2022 Gen-3, the latest in the series, comes with the A15 Bionic 5G chip and the rest of the phone is largely the same as the iPhone SE 2020.You get the same old design including the large top and bottom bezels, single rear camera and single front camera with TouchID for security. If you want the A15 Bionic chip without spending much, you can consider the iPhone SE 3. You can also consider the 128GB variant for Rs 46,900."
-  },
+  
   {
     "id": 27,
     "date": "January 23, 2022",
@@ -325,14 +292,7 @@ const Details = (props) => {
     "category": "Fitness",
     "description": "Consistency, patience, and discipline are extremely essential to reaching one’s fitness goals. If you are willing to take on the challenge, then you might want to learn some power moves from none other than Virat Kohli.The batsman, a fitness buff, often takes to social media to share his impressive workout routines. And recently, he dropped another video showcasing a power-packed workout. He also explained that power clean helps to increase “muscular coordination, leading to better power output, and enhancing overall athletic capacity”. “Such kinds of explosive compound movements yield great results not only in power and force output but also kinesthetic awareness, and neurological adaptations, which is required by athletes to train harder and run faster,” the expert mentioned.It is best to perform the exercise under guidance, especially for beginners. Also, if one has back, shoulders, or lower body joint niggles, avoid doing the power clean. During movement, if there is any pain or discomfort, it is best to discontinue and do basic stretches."
   },
-  {
-    "id": 105,
-    "date": "May 29, 2022",
-    "title": "Watch: Virat Kohli impresses with his powerful ‘cleans day’ workout ",
-    "Image": "https://images.indianexpress.com/2022/05/virat-kohli_1200_insta.jpg",
-    "category": "fitness",
-    "description": "Consistency, patience, and discipline are extremely essential to reaching one’s fitness goals. If you are willing to take on the challenge, then you might want to learn some power moves from none other than Virat Kohli.The batsman, a fitness buff, often takes to social media to share his impressive workout routines. And recently, he dropped another video showcasing a power-packed workout. He also explained that power clean helps to increase “muscular coordination, leading to better power output, and enhancing overall athletic capacity”. “Such kinds of explosive compound movements yield great results not only in power and force output but also kinesthetic awareness, and neurological adaptations, which is required by athletes to train harder and run faster,” the expert mentioned.It is best to perform the exercise under guidance, especially for beginners. Also, if one has back, shoulders, or lower body joint niggles, avoid doing the power clean. During movement, if there is any pain or discomfort, it is best to discontinue and do basic stretches."
-  },
+  
   {
     "id": 35,
     "date": "January 23, 2022",
@@ -341,14 +301,7 @@ const Details = (props) => {
     "category": "Fitness",
     "description": "o one will understand you or your body the way you do so make sure you listen to it, protect it, do good things for it and celebrate it,” they saidYoga is now the preferred choice of many, to stay fit, active and agile. It helps in numerous ways, be it in improving flexibility, strength and posture, or reducing stress and providing a sense of calm. Nutrition and diet are an important part of fitness along with physical exercise. On that account, it becomes necessary to understand whether yoga should be done on an empty stomach or notAnshuka Parwani, a yoga expert, and Pooja Makhija, a nutritionist took to Instagram to talk about this dilemma that many face.Pooja believes that it’s important to have something before starting with your exercise in the morning. It should be quite light and not too heavy to kickstart your metabolism.While both have contrasting opinions, they strongly agreed and upheld the point that you know your body better than anyone else. Hence, it’s important to observe and understand what your body is trying to tell you and do as one may deem fit. They said, if practising yoga on an empty stomach is suiting you better, do that. On the other hand, if it feels like you need something to get a better start, follow that as a part of your routine.    "
   },
-  {
-    "id": 200,
-    "date": "May 28, 2022",
-    "title": "Should yoga be done on an empty stomach? Here’s what experts say ",
-    "Image": "https://images.indianexpress.com/2022/04/GettyImages-yoga-1200.jpg",
-    "category": "Latest",
-    "description": "o one will understand you or your body the way you do so make sure you listen to it, protect it, do good things for it and celebrate it,” they saidYoga is now the preferred choice of many, to stay fit, active and agile. It helps in numerous ways, be it in improving flexibility, strength and posture, or reducing stress and providing a sense of calm. Nutrition and diet are an important part of fitness along with physical exercise. On that account, it becomes necessary to understand whether yoga should be done on an empty stomach or notAnshuka Parwani, a yoga expert, and Pooja Makhija, a nutritionist took to Instagram to talk about this dilemma that many face.Pooja believes that it’s important to have something before starting with your exercise in the morning. It should be quite light and not too heavy to kickstart your metabolism.While both have contrasting opinions, they strongly agreed and upheld the point that you know your body better than anyone else. Hence, it’s important to observe and understand what your body is trying to tell you and do as one may deem fit. They said, if practising yoga on an empty stomach is suiting you better, do that. On the other hand, if it feels like you need something to get a better start, follow that as a part of your routine.    "
-  },
+  
   {
     "id": 36,
     "date": "January 23, 2022",
@@ -469,75 +422,8 @@ const Details = (props) => {
     "category": "Food",
     "description": "If you are a fitness enthusiast and a vegan, you might be one of the people who have tofu in their meals instead of paneer. While many people find it easily in the supermarket, others may find it difficult to spot tofu at their local stores. If you are one of those people, don’t worry as this simple method can help you make protein-rich tofu at home with just two ingredients – chickpeas and water.Once the tofu is set, you can use it as and when required. It is as tasty as the tofu bought from a store and tofu is as versatile as cottage cheese. It can be used in dry and wet recipes depending on your mood and diet requirements. Chickpea is rich in protein and hence the tofu is a great source of protein to help you complete the daily protein requirement.Soak the chickpeas overnight after thoroughly washing with the help of a strainer under running water.Drain all the water and wash the chickpeas the next day. Add chickpeas with two cups of water in a blender and blend in batches until you have a smooth mixture.Strain the blended chickpeas through a muslin cloth into a bowl. Make a squeezable bag out of the muslin cloth with the mixture in it. Squeeze the blend well to strain it nicely. As the water drains slowly from the mixture, it takes some time to strain the blend.Take the strained blend and put it in a pot. Keep the pot on full flame and let the mixture boil. Once you see bubbles, lower the flame and cook the blend for another half n hour. The mixture will thicken with time. When it is thick enough, put off the flame and let the blend cool down for a while. Leave the mixture in a container for more than 2 hours idle. This will ensure that the mixture sits and the tofu sets properly"
   },
-  {
-    "id": 201,
-    "date": "May 29, 2022",
-    "title": "Unable to Find Tofu at Local Store? Here’s an Easy Recipe to Make it at Home",
-    "Image": "https://images.news18.com/ibnlive/uploads/2022/04/tofu-16510624083x2.jpg?impolicy=website&width=510&height=356",
-    "category": "Latest",
-    "description": "If you are a fitness enthusiast and a vegan, you might be one of the people who have tofu in their meals instead of paneer. While many people find it easily in the supermarket, others may find it difficult to spot tofu at their local stores. If you are one of those people, don’t worry as this simple method can help you make protein-rich tofu at home with just two ingredients – chickpeas and water.Once the tofu is set, you can use it as and when required. It is as tasty as the tofu bought from a store and tofu is as versatile as cottage cheese. It can be used in dry and wet recipes depending on your mood and diet requirements. Chickpea is rich in protein and hence the tofu is a great source of protein to help you complete the daily protein requirement.Soak the chickpeas overnight after thoroughly washing with the help of a strainer under running water.Drain all the water and wash the chickpeas the next day. Add chickpeas with two cups of water in a blender and blend in batches until you have a smooth mixture.Strain the blended chickpeas through a muslin cloth into a bowl. Make a squeezable bag out of the muslin cloth with the mixture in it. Squeeze the blend well to strain it nicely. As the water drains slowly from the mixture, it takes some time to strain the blend.Take the strained blend and put it in a pot. Keep the pot on full flame and let the mixture boil. Once you see bubbles, lower the flame and cook the blend for another half n hour. The mixture will thicken with time. When it is thick enough, put off the flame and let the blend cool down for a while. Leave the mixture in a container for more than 2 hours idle. This will ensure that the mixture sits and the tofu sets properly"
-  },
-  {
-    "id": 301,
-    "date": "May 29, 2022",
-    "title": "Radhika Apte is tired of industry people talking about body positivity then going through surgeries: 'I know so many of my colleagues'",
-    "Image": "https://st1.bollywoodlife.com/wp-content/uploads/2022/05/radhikaofficial_279032793_3143265359229361_3628480607009719689_n.jpg?impolicy=Medium_Widthonly&w=800",
-    "category": "Top",
-    "description": "Radhika Apte, who is known for doing intense and unconventional roles throughout her acting career, has expressed her displeasure with industry people and their double standards when it comes to glamour. She said that she is unable to cope with the fact that her colleagues who undergo surgeries to change their faces and bodies and then talk about body positivity and embracing their age. Also Read - Jitendra Kumar in Panchayat 2, Manoj Bajpayee in The Family Man 2 and more – check out the 10 highest paid actors on OTT and their hefty fees"
-  },
-  {
-    "id": 302,
-    "date": "May 30, 2022",
-    "title": "NI technology sector 'thriving' despite pandemic",
-    "Image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/50A2/production/_124924602_catalysthub.jpg",
-    "category": "Top",
-    "description": "Technology leaders in Northern Ireland believe there is a huge opportunityfor the development of the industry as it emerges from the pandemic. New share investment in companies based in Northern Ireland was more than £100m in 2021, according to Catalyst. This compares with about £5m of venture capital investment in 2014, and just over £44m in 2020 Catalyst says that despite the challenges of the past two years, the tech industry is thriving  There is a number of ways innovation can change, and disruption and global events can actually drive innovation, Adrian Johnston, Catalyst director of strategic business development said What you have seen is that the digital and technology sector has responded with agility to that need."
-  },
-  {
-    "id": 303,
-    "date": "May 30, 2022",
-    "title": "Amazon, Google and other tech companies gave massive hike to their employees",
-    "Image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202205/Screenshot_2022-05-29_at_9.07._1200x768.png?ezylgjmz8v9G02_1y9e6AZ4ub3vVc0b3&size=770:433",
-    "category": "Top",
-    "description": "The appraisal season is here and if you are working for one of the big tech companies such as Amazon, Google or Microsoft, chances are that you will or have already seen a huge jump in your salary. Companies including Amazon, Google, Microsoft, Infosys and others have reportedly hiked the salaries of all their employees.In the past two years, salary increments in various companies were deferred on the account of the pandemic and the economic downturn. However, business picked up during the second year of the pandemic, as people got accustomed to the new normal. Now to retain its top talents and attract talented candidates, companies are rewarding the employees. Earlier in 2021, top MNCs like Accenture, Infosys, TCS, Wipro and others hiked the pay of their employees and even promoted them. This year, companies like Amazon, Google, and Microsoft have followed suit."
-  },
-  {
-    "id": 401,
-    "date": "May 29, 2022",
-    "title": "Radhika Apte is tired of industry people talking about body positivity then going through surgeries: 'I know so many of my colleagues'",
-    "Image": "https://st1.bollywoodlife.com/wp-content/uploads/2022/05/radhikaofficial_279032793_3143265359229361_3628480607009719689_n.jpg?impolicy=Medium_Widthonly&w=800",
-    "category": "Latest-bottom2",
-    "description": "Radhika Apte, who is known for doing intense and unconventional roles throughout her acting career, has expressed her displeasure with industry people and their double standards when it comes to glamour. She said that she is unable to cope with the fact that her colleagues who undergo surgeries to change their faces and bodies and then talk about body positivity and embracing their age. Also Read - Jitendra Kumar in Panchayat 2, Manoj Bajpayee in The Family Man 2 and more – check out the 10 highest paid actors on OTT and their hefty fees"
-  },
-  {
-    "id": 402,
-    "date": "May 30, 2022",
-    "title": "NI technology sector 'thriving' despite pandemic",
-    "Image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/50A2/production/_124924602_catalysthub.jpg",
-    "category": "Latest-bottom1",
-    "description": "Technology leaders in Northern Ireland believe there is a huge opportunityfor the development of the industry as it emerges from the pandemic. New share investment in companies based in Northern Ireland was more than £100m in 2021, according to Catalyst. This compares with about £5m of venture capital investment in 2014, and just over £44m in 2020 Catalyst says that despite the challenges of the past two years, the tech industry is thriving  There is a number of ways innovation can change, and disruption and global events can actually drive innovation, Adrian Johnston, Catalyst director of strategic business development said What you have seen is that the digital and technology sector has responded with agility to that need."
-  },
-  {
-    "id": 403,
-    "date": "May 30, 2022",
-    "title": "Amazon, Google and other tech companies gave massive hike to their employees",
-    "Image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202205/Screenshot_2022-05-29_at_9.07._1200x768.png?ezylgjmz8v9G02_1y9e6AZ4ub3vVc0b3&size=770:433",
-    "category": "Latest-bottom3",
-    "description": "The appraisal season is here and if you are working for one of the big tech companies such as Amazon, Google or Microsoft, chances are that you will or have already seen a huge jump in your salary. Companies including Amazon, Google, Microsoft, Infosys and others have reportedly hiked the salaries of all their employees.In the past two years, salary increments in various companies were deferred on the account of the pandemic and the economic downturn. However, business picked up during the second year of the pandemic, as people got accustomed to the new normal. Now to retain its top talents and attract talented candidates, companies are rewarding the employees. Earlier in 2021, top MNCs like Accenture, Infosys, TCS, Wipro and others hiked the pay of their employees and even promoted them. This year, companies like Amazon, Google, and Microsoft have followed suit."
-  },
+  
+  
 
   
-  ]);
-  return (
-    <div>
-      <store.Provider value={[details, setDetails]}>
-
-        {props.children}
-
-
-      </store.Provider>
-    </div>
-  )
-}
-
-export default Details
+  ]
