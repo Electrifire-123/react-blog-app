@@ -8,6 +8,7 @@ import {useDetailsContextConsumer} from '../Context/detailsContext';
 const HomePage = () => {
   const {details} = useDetailsContextConsumer();
   const arrInd = ()=>{ return Math.floor(Math.random() * 50)};
+  console.log(arrInd());
   const latest = [details[arrInd()], details[arrInd()], details[arrInd()]]
   const latest2 = [details[arrInd()], details[arrInd()], details[arrInd()]]
   const latestarticles = [details[arrInd()], details[arrInd()], details[arrInd()]]
