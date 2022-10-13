@@ -1,23 +1,35 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import SmallCard from "../components/SmallCard";
-import axios from 'axios'
-import { useDetailsContextConsumer } from "../Context/detailsContext";
+// import axios from "axios";
+// import { useDetailsContextConsumer } from "../Context/detailsContext";
 const BlogPage = ({ category }) => {
   // const {details} = useDetailsContextConsumer();
-  const [details, setDetails] = useState([]);
-  console.log(
-    `https://backendtofrontend.herokuapp.com/blogdata/${category.toLowerCase()}`
-  );
-  // https://backendtofrontend.herokuapp.com/blogdata/bollywood
+  const [details, setDetails] = useState(0);
+  console.log(`https://backendtofrontend.herokuapp.com/blogdata/bollywood`);
   useEffect(() => {
-   const fetchDetails = async () => {
-    const res = await axios.get(`https://backendtofrontend.herokuapp.com/blogdata${category}`)
-    setDetails(res.data);
-   }
-   fetchDetails();
-  }, [category]);
+    const fetchDetails = () => {
+      const fetchData = fetch(`https://backendtofrontend.herokuapp.com/blogdata/api`);
+      fetchData
+        .then(res => res.json())
+        .then((res) => {
+          setDetails(res);
+          console.log(res);
+        });
+    };
+    fetchDetails();
+  }, []);
+
   console.log(details);
+  // const [details, setDetails] = useState([])
+  // useEffect(() => {
+  //   fetch("http://localhost:8000/blogdata/bollywood")
+  //   .then((res)=>res.json())
+  //   .then(
+  //     res => setDetails(res)
+  //   )
+  // }, []);
+  // console.log(details)
 
   const arrInd = () => {
     return Math.floor(Math.random() * 10);
@@ -31,6 +43,7 @@ const BlogPage = ({ category }) => {
     details[arrInd()],
     details[arrInd()],
   ];
+  // console.log(topposts)
 
   return (
     <div className="category_page bollywood_container">

@@ -1,25 +1,52 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Card from "../components/Card";
 import SmallCard from "../components/SmallCard";
 import CardHome from "../components/CardHome";
-import {useDetailsContextConsumer} from '../Context/detailsContext';
+// import {useDetailsContextConsumer} from '../Context/detailsContext';
 
 const HomePage = () => {
-  const {details} = useDetailsContextConsumer();
-  const arrInd = ()=>{ return Math.floor(Math.random() * 50)};
-  console.log(arrInd());
-  const latest = [details[arrInd()], details[arrInd()], details[arrInd()]]
-  const latest2 = [details[arrInd()], details[arrInd()], details[arrInd()]]
-  const latestarticles = [details[arrInd()], details[arrInd()], details[arrInd()]]
-  const topposts = [details[arrInd()], details[arrInd()], details[arrInd()], details[arrInd()]] 
+  // const {details} = useDetailsContextConsumer();
+  const [details, setDetails] = useState(0);
+  useEffect(() => {
+    const fetchDetails = () => {
+      const fetchData = fetch(`https://backendtofrontend.herokuapp.com/blogdata/api`);
+      fetchData
+        .then(res => res.json())
+        .then((res) => {
+          setDetails(res);
+          // console.log(res);
+        });
+    };
+    fetchDetails();
+  }, []);
 
-  return (
+  let latest = null;
+  let latest2 = null;
+  let latestarticles = null;
+  let topposts = null;
+  if(details !== undefined){
+    // arrInd = () => Math.floor(Math.random() * 49);
+  
+  // console.log(details[Math.floor(Math.random() * 49)])
+   latest = [details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)]]
+  // console.log(latest);
+   latest2 = [details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)]]
+  // console.log(latest2)
+   latestarticles = [details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)]]
+  // console.log(latestarticles)
+   topposts = [details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)], details[Math.floor(Math.random() * 49)]] 
+  // console.log(topposts)
+}
+console.log(latest);
+  
+
+  return ( details && 
     <div className="home_container">
       <div className="banner-image">
-        <div className="main-image" style={{background:details[arrInd()].Image}}>
+        <div className="main-image" style={{}}>
           <Link className="link" to="/bollywood">
-            <h1>Have We Got News For You.</h1>
+            <h1>Read bollywood's top stories.</h1>
           </Link>
         </div>
         <div className="sub-images">
