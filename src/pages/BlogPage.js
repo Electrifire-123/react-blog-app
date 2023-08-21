@@ -9,7 +9,7 @@ const BlogPage = ({ category }) => {
   console.log(`https://reat-blog-app-backend-by-rahul-yadav.onrender.com//blogdata/bollywood`);
   useEffect(() => {
     const fetchDetails = () => {
-      const fetchData = fetch(`https://reat-blog-app-backend-by-rahul-yadav.onrender.com//blogdata/api`);
+      const fetchData = fetch(`https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/api`);
       fetchData
         .then(res => res.json())
         .then((res) => {
