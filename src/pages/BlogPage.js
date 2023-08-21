@@ -21,7 +21,7 @@ const BlogPage = ({ category }) => {
         });
     };
     fetchDetails();
-  }, []);
+  }, [category]);
 
   console.log(details);
   // const [details, setDetails] = useState([])
