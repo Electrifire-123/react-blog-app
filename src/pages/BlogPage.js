@@ -5,7 +5,7 @@ import SmallCard from "../components/SmallCard";
 // import { useDetailsContextConsumer } from "../Context/detailsContext";
 const BlogPage = ({ category }) => {
   // const {details} = useDetailsContextConsumer();
-  const [details, setDetails] = useState(0);
+  const [details, setDetails] = useState([]);
   console.log(`https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/bollywood`);
   useEffect(() => {
     const fetchDetails = () => {
@@ -50,7 +50,7 @@ const BlogPage = ({ category }) => {
     <div className="category_page bollywood_container">
       <div className="column_main">
         <h1 className="title head-title">{category}</h1>
-        {details.map((n) => (
+        {details.length>0 && details.map((n) => (
           <Card
             key={n.id}
             articleid={n.id}
