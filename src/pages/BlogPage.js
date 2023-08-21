@@ -66,7 +66,7 @@ const BlogPage = ({ category }) => {
       </div>
       <div className="sub_column">
         <h1 className="side_title title">Top Posts</h1>
-        {topposts[0]===undefined && topposts.map((n) => (
+        {topposts[0]!==undefined && topposts.map((n) => (
           <SmallCard
             key={n.id}
             // articleid={n.id}
