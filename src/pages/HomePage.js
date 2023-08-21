@@ -10,7 +10,7 @@ const HomePage = () => {
   const [details, setDetails] = useState(0);
   useEffect(() => {
     const fetchDetails = () => {
-      const fetchData = fetch(`https://backendtofrontend.herokuapp.com/blogdata/api`);
+      const fetchData = fetch(`https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/api`);
       fetchData
         .then(res => res.json())
         .then((res) => {
