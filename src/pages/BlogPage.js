@@ -6,7 +6,9 @@ import SmallCard from "../components/SmallCard";
 const BlogPage = ({ category }) => {
   // const {details} = useDetailsContextConsumer();
   const [details, setDetails] = useState([]);
+  
   console.log(`https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/bollywood`);
+  console.log("Latest Commit :::::::::");
   useEffect(() => {
     const fetchDetails = () => {
       const api = "https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/" + category
