@@ -11,7 +11,7 @@ const BlogPage = ({ category }) => {
   console.log("Latest Commit :::::::::");
   useEffect(() => {
     const fetchDetails = () => {
-      const api = "https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/" + category
+      // const api = "https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/" + category
       const fetchData = fetch(`https://reat-blog-app-backend-by-rahul-yadav.onrender.com/blogdata/${category}`);
       fetchData
         .then(res => res.json())
