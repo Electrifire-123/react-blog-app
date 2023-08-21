@@ -15,7 +15,7 @@ const BlogPage = ({ category }) => {
         .then(res => res.json())
         .then((res) => {
           setDetails(res);
-          console.log(res);
+          console.log("data:::::",res);
         });
     };
     fetchDetails();
