@@ -46,7 +46,8 @@ const BlogPage = ({ category }) => {
     details[arrInd()],
     details[arrInd()],
   ];
-  console.log(topposts)
+  console.log("TopPosts",topposts)
+  console.log("detailsData",details)
 
   return (
     <div className="category_page bollywood_container">
